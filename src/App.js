@@ -31,7 +31,10 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>This is the web api data from the demo site https://jsonplaceholder.typicode.com/<hr></hr>
-            <b>{todos.title}</b>{todos.id}
+            <b>UserId:</b> {todos.userId}<br></br>
+            <b>Title:</b> {todos.title}<br></br>
+            <b>Id:</b> {todos.id}<br></br>
+            <b>Completed:</b> {todos.completed ? 'Yes' : 'No'}
           </p>
         </header>
       </div>
